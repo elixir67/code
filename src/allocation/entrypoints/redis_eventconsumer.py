@@ -2,8 +2,8 @@ import json
 import logging
 import redis
 
-from allocation import bootstrap, config
-from allocation.domain import commands
+from src.allocation import bootstrap, config
+from src.allocation.domain import commands
 
 logger = logging.getLogger(__name__)
 
